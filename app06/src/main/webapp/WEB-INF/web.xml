@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="4.0"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+ http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+	<display-name>Aplicacion</display-name>
+	<servlet>
+		<description>
+		</description>
+		<display-name>AppController</display-name>
+		<servlet-name>AppController</servlet-name>
+		<servlet-class>pe.edu.vallegrande.app.controller.AppController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AppController</servlet-name>
+		<url-pattern>/AppController</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AppController</servlet-name>
+		<url-pattern>/Abc</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AppController</servlet-name>
+		<url-pattern>/Xyz</url-pattern>
+	</servlet-mapping>
+</web-app>
